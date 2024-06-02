@@ -91,7 +91,7 @@ app.get('/', (req, res) => {
     res.sendFile(imagePath);
 });
 app.listen(port, () => {
-    console.log(`🔗 Listening to OTF : http://localhost:${port}`);
+    console.log(`🔗  to OTF : http://localhost:${port}`);
 });
 
 printWatermark();
